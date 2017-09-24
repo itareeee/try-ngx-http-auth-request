@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nginx:
+    container_name: try-nginx
+    build: nginx
+    image: try-nginx
+    ports:
+      - '10081:80'
