@@ -1,7 +1,12 @@
+# Try try-ngx-http-auth-request
+
+This is sample implementation of token translation (from reference token to value token), using ngx_http_auth_request_module.
+
 # Run Servers
 
 ```
 $ docker-compose up
+$ npm install
 $ npm start
 ```
 
